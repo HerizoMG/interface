@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="660.0" prefWidth="730.0" style="-fx-background-color: #567895;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Lieu">
+   <children>
+      <JFXTreeTableView layoutX="50.0" layoutY="96.0" prefHeight="427.0" prefWidth="632.0" />
+      <ButtonBar layoutX="175.0" layoutY="578.0" prefHeight="40.0" prefWidth="366.0">
+         <buttons>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="123.0" text="Ajouter" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="123.0" text="Modifier" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="123.0" text="Supprimer" />
+         </buttons>
+      </ButtonBar>
+   </children>
+
+</Pane>

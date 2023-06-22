@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d2767a3-4a72-46be-88b3-aeca7dd80ce3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Affectation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/AjoutAffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/AjoutEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/AjoutLieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Lieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/ModifierAffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/ModifierEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/ModifierLieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/AjoutEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/affectation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutAffect.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutEmp.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutLieu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/employe.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/lieu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierAffect.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierEmp.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierLieu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2RTr7abTiXH6ERYy3b2jBcRLdCY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/User/IdeaProjects/Affectation/src/main/resources/com/example/affectation",
+    "last_opened_file_path": "C:/Users/Valiavo ANDRIANTSOA/Downloads/jfoenix-9.0.10.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Affectation\src\main\java\com\example\affectation\images" />
+      <recent name="C:\Users\User\IdeaProjects\Affectation\src\main\java\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Affectation\src\main\java\com\example\affectation" />
+      <recent name="C:\Users\User\IdeaProjects\Affectation\src\main\resources\com\example\affectation\fxml" />
+      <recent name="C:\Users\User\IdeaProjects\Affectation\src\main\resources\com\example\affectation" />
+      <recent name="C:\Users\User\IdeaProjects\Affectation\src\main\resources\com\example\affectation\FXML" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.affectation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.affectation" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d2767a3-4a72-46be-88b3-aeca7dd80ce3" name="Changes" comment="" />
+      <created>1687284747951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687284747951</updated>
+      <workItem from="1687284748997" duration="16108000" />
+      <workItem from="1687340534966" duration="1952000" />
+      <workItem from="1687381328947" duration="18375000" />
+      <workItem from="1687435828145" duration="5224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

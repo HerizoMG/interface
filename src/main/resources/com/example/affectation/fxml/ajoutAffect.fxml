@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="642.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller">
+    <children>
+        <TextField layoutX="50.0" layoutY="440.0" prefHeight="25.0" prefWidth="330.0" promptText="Date prise de service" />
+        <TextField layoutX="50.0" layoutY="370.0" prefHeight="25.0" prefWidth="330.0" promptText="Date affectation" />
+        <TextField layoutX="50.0" layoutY="295.0" prefHeight="25.0" prefWidth="330.0" promptText="Nouveau lieu" />
+        <TextField layoutX="50.0" layoutY="215.0" prefHeight="25.0" prefWidth="330.0" promptText="Ancien lieu" />
+        <Pane prefHeight="70.0" prefWidth="430.0" style="-fx-background-color: #013069;">
+            <children>
+                <Label layoutX="14.0" layoutY="22.0" prefHeight="27.0" prefWidth="190.0" text="Ajout d'une affectation" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <ButtonBar layoutX="91.0" layoutY="542.0" prefHeight="40.0" prefWidth="232.0">
+            <buttons>
+                <Button mnemonicParsing="false" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
+                <Button mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
+            </buttons>
+        </ButtonBar>
+      <TextField layoutX="50.0" layoutY="136.0" prefHeight="25.0" prefWidth="330.0" promptText="Numéro employé" />
+    </children>
+
+</AnchorPane>
