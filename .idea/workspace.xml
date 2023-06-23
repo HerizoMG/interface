@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d2767a3-4a72-46be-88b3-aeca7dd80ce3" name="Changes" comment="end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierAffectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierAffectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierEmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierEmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutAffectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutAffectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/AffectationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/AffectationDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/EmployeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/EmployeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Affectation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Affectation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Employe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1687435828145" duration="5224000" />
       <workItem from="1687458262329" duration="19371000" />
       <workItem from="1687479054998" duration="1676000" />
-      <workItem from="1687480748326" duration="13194000" />
+      <workItem from="1687480748326" duration="13923000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1687478632238</created>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687493424827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="end">
+      <created>1687494271499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687494271499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

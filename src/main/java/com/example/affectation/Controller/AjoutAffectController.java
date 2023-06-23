@@ -21,6 +21,7 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.Objects;
 
 import static com.example.affectation.Controller.AjoutEmpController.showAlert;
 
@@ -75,6 +76,12 @@ public class AjoutAffectController {
 
         Date date_aff;
         Date date_p;
+        System.out.println(affect_empl.getId_lieu() + " == " + nouveau_lieu);
+
+        if (Objects.equals(affect_empl.getId_lieu(), nouveau_lieu)) {
+            showAlert(Alert.AlertType.ERROR, "Erreur", "Répétition de lieu", "L'employé travaille déjà sur le lieu !");
+            return;
+        }
 
         if (selectedDateAffect == null || selectedDateService == null) {
             showAlert(Alert.AlertType.ERROR, "Erreur", "Date invalide", "Veuillez sélectionner une date !");

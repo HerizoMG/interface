@@ -1,6 +1,7 @@
 package com.example.affectation.DAO;
 
 import com.example.affectation.Model.Affectation;
+import com.example.affectation.Model.Lieu;
 import com.example.affectation.Util.Database;
 
 import java.sql.Date;
