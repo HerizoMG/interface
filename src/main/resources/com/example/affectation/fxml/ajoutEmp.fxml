@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="642.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.AjoutEmpController">
+<AnchorPane fx:id="modalAddLabel" prefHeight="642.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.AjoutEmpController">
    <children>
-      <TextField layoutX="49.0" layoutY="410.0" prefHeight="25.0" prefWidth="330.0" promptText="Poste" />
-      <TextField layoutX="49.0" layoutY="341.0" prefHeight="25.0" prefWidth="330.0" promptText="Mail" />
-      <TextField layoutX="49.0" layoutY="272.0" prefHeight="25.0" prefWidth="330.0" promptText="Prénoms" />
-      <TextField layoutX="48.0" layoutY="207.0" prefHeight="25.0" prefWidth="330.0" promptText="Nom" />
-      <ComboBox layoutX="51.0" layoutY="137.0" prefHeight="26.0" prefWidth="330.0" promptText="Civilité" />
-      <ComboBox layoutX="243.0" layoutY="478.0" prefHeight="26.0" prefWidth="135.0" promptText="Lieu" />
-      <ComboBox layoutX="48.0" layoutY="478.0" prefHeight="26.0" prefWidth="142.0" promptText="Province" />
+      <TextField fx:id="addPost" layoutX="49.0" layoutY="410.0" prefHeight="25.0" prefWidth="330.0" promptText="Poste" />
+      <TextField fx:id="addMail" layoutX="49.0" layoutY="341.0" prefHeight="25.0" prefWidth="330.0" promptText="Mail" />
+      <TextField fx:id="addPrenoms" layoutX="49.0" layoutY="272.0" prefHeight="25.0" prefWidth="330.0" promptText="Prénoms" />
+      <TextField fx:id="addNom" layoutX="48.0" layoutY="207.0" prefHeight="25.0" prefWidth="330.0" promptText="Nom" />
+      <ComboBox fx:id="civiliteCombo" layoutX="51.0" layoutY="137.0" prefHeight="26.0" prefWidth="330.0" promptText="Civilité" />
+      <ComboBox fx:id="lieuCombo" layoutX="243.0" layoutY="478.0" prefHeight="26.0" prefWidth="135.0" promptText="Lieu" />
+      <ComboBox fx:id="provinceComboEmploye" layoutX="48.0" layoutY="478.0" prefHeight="26.0" prefWidth="142.0" promptText="Province" />
       <Pane prefHeight="70.0" prefWidth="430.0" style="-fx-background-color: #013069;">
          <children>
             <Label alignment="CENTER" layoutX="14.0" layoutY="22.0" prefHeight="27.0" prefWidth="402.0" text="Ajout d'un employé" textFill="WHITE">
@@ -24,8 +29,8 @@
       </Pane>
       <ButtonBar layoutX="71.0" layoutY="545.0" prefHeight="40.0" prefWidth="252.0">
         <buttons>
-          <Button mnemonicParsing="false" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
-            <Button mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
+          <Button mnemonicParsing="false" onAction="#handleAddEmploye" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#cancelAdding" prefWidth="100.0" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
         </buttons>
       </ButtonBar>
    </children>
