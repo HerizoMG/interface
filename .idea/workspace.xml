@@ -4,29 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d2767a3-4a72-46be-88b3-aeca7dd80ce3" name="Changes" comment="interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/AffectationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/EmployeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/LieuDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Affectation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Employe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Model/Lieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Util/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Util/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Util/script.sql" afterDir="false" />
+    <list default="true" id="1d2767a3-4a72-46be-88b3-aeca7dd80ce3" name="Changes" comment="all employe fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AffectationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AffectationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutAffectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutAffectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutEmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutEmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/EmployeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/EmployeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierEmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierEmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutLieuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/AjoutLieuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/LieuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/LieuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierAffectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierAffectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierLieuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/Controller/ModifierLieuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/AffectationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/AffectationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/LieuDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/affectation/DAO/LieuDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutAffect.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutAffect.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutEmp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutEmp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/employe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/employe.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierEmp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierEmp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/affectation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/affectation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutLieu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/ajoutLieu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/lieu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/lieu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierAffect.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierAffect.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierLieu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/affectation/fxml/modifierLieu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Herizo2004 &lt;109790252+herizo2004@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -115,7 +112,7 @@
       <workItem from="1687435828145" duration="5224000" />
       <workItem from="1687458262329" duration="19371000" />
       <workItem from="1687479054998" duration="1676000" />
-      <workItem from="1687480748326" duration="5305000" />
+      <workItem from="1687480748326" duration="12373000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1687478632238</created>
@@ -124,14 +121,34 @@
       <option name="project" value="LOCAL" />
       <updated>1687478632238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all employe fixed">
+      <created>1687486240410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687486240410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface" />
+    <MESSAGE value="all" />
+    <MESSAGE value="all employe fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="all employe fixed" />
   </component>
 </project>

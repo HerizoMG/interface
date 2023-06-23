@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="642.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.ModifierAffectController">
+<AnchorPane fx:id="modalEditLabel" prefHeight="642.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.ModifierAffectController">
     <children>
         <Pane prefHeight="70.0" prefWidth="430.0" style="-fx-background-color: #013069;">
             <children>
@@ -17,24 +25,24 @@
         </Pane>
         <ButtonBar layoutX="91.0" layoutY="542.0" prefHeight="40.0" prefWidth="232.0">
             <buttons>
-                <Button mnemonicParsing="false" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
-                <Button mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
+                <Button mnemonicParsing="false" onAction="#updateAffectation" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
+                <Button mnemonicParsing="false" onAction="#cancelUpdating" prefWidth="100.0" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
             </buttons>
         </ButtonBar>
       <VBox layoutX="40.0" layoutY="111.0" prefHeight="416.0" prefWidth="347.0" spacing="12.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Numéro Employé " wrappingWidth="97.13671875" />
-            <TextField prefHeight="25.0" prefWidth="299.0" />
+            <TextField fx:id="num_emplAff" prefHeight="25.0" prefWidth="299.0" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ancien Lieu" wrappingWidth="89.955078125" />
-            <TextField />
+            <TextField fx:id="ancien_lieu" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nouvelle Province" wrappingWidth="100.0" />
-            <ComboBox prefHeight="25.0" prefWidth="347.0" />
+            <ComboBox fx:id="new_prov" prefHeight="25.0" prefWidth="347.0" />
             <Text layoutX="10.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nouveau Lieu" wrappingWidth="100.0" />
-            <ComboBox layoutX="10.0" layoutY="170.0" prefHeight="25.0" prefWidth="347.0" />
+            <ComboBox fx:id="new_lieu" layoutX="10.0" layoutY="170.0" prefHeight="25.0" prefWidth="347.0" />
             <Text layoutX="10.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Affectation" wrappingWidth="100.0" />
-            <DatePicker prefHeight="25.0" prefWidth="348.0" />
+            <DatePicker fx:id="date_affectAff" prefHeight="25.0" prefWidth="348.0" />
             <Text layoutX="10.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Prise de Service" wrappingWidth="128.0" />
-            <DatePicker layoutX="10.0" layoutY="301.0" prefHeight="25.0" prefWidth="348.0" />
+            <DatePicker fx:id="date_serviceAff" layoutX="10.0" layoutY="301.0" prefHeight="25.0" prefWidth="348.0" />
          </children></VBox>
     </children>
 

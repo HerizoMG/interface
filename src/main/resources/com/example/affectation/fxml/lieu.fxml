@@ -11,10 +11,10 @@
          <buttons>
             <Button fx:id="ajouterLieuButton" mnemonicParsing="false" onAction="#handleAjouterLieuButton" prefHeight="40.0" prefWidth="123.0" text="Ajouter" />
             <Button fx:id="modifierLieuButton" mnemonicParsing="false" onAction="#handleModifierLieuButton" prefHeight="40.0" prefWidth="123.0" text="Modifier" />
-            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="123.0" text="Supprimer" />
+            <Button mnemonicParsing="false" onAction="#deleteLieu" prefHeight="40.0" prefWidth="123.0" text="Supprimer" />
          </buttons>
       </ButtonBar>
-      <TableView layoutX="17.0" layoutY="31.0" prefHeight="531.0" prefWidth="694.0" />
+      <TableView fx:id="tableLieu" layoutX="17.0" layoutY="31.0" prefHeight="531.0" prefWidth="694.0" />
    </children>
 
 </Pane>

@@ -26,7 +26,7 @@ public class AffectationDAO extends Database {
         String sqlQuery = "SELECT * FROM affectation " +
                 "LEFT JOIN lieu ON affectation.nouveau_lieu = lieu.id_lieu " +
                 "LEFT JOIN employe ON employe.num_empl = affectation.num_empl " +
-                "WHERE (LOWER(employe.nom) LIKE ? OR LOWER(employe.prenoms) LIKE ? OR LOWER(employe.num_empl) LIKE ?)" + dateQuery;
+                "WHERE (LOWER(employe.nom) LIKE ? OR LOWER(employe.prenoms) LIKE ? OR LOWER(employe.num_empl) LIKE ?)" + dateQuery + " ORDER BY num_affect";
 
         try (PreparedStatement stmt = conn.prepareStatement(sqlQuery)) {
             int parameterIndex = 1;

@@ -14,7 +14,7 @@ public class LieuDAO extends Database {
         ResultSet lieuRES = null;
         List<Lieu> lieux = new ArrayList<>();
         try{
-            PreparedStatement stmt = conn.prepareStatement("SELECT * FROM lieu");
+            PreparedStatement stmt = conn.prepareStatement("SELECT * FROM lieu ORDER BY id_lieu");
             lieuRES = stmt.executeQuery();
             while (lieuRES.next()) {
                 Lieu tmpEmp = new Lieu();

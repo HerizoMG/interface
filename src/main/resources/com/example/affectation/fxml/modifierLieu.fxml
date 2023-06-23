@@ -10,9 +10,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.ModifierLieuController">
+<AnchorPane fx:id="modalLieuEditLabel" prefHeight="400.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.ModifierLieuController">
     <children>
-        <TextField layoutX="35.0" layoutY="221.0" prefHeight="26.0" prefWidth="240.0" />
+        <TextField fx:id="designField" layoutX="35.0" layoutY="221.0" prefHeight="26.0" prefWidth="240.0" />
         <Pane prefHeight="50.0" prefWidth="310.0" style="-fx-background-color: #013069;">
             <children>
                 <Label alignment="CENTER" layoutX="22.0" layoutY="12.0" prefHeight="27.0" prefWidth="270.0" text="Modification de lieu" textFill="WHITE">
@@ -24,11 +24,11 @@
         </Pane>
         <ButtonBar layoutX="55.0" layoutY="308.0" prefHeight="40.0" prefWidth="178.0">
             <buttons>
-                <Button mnemonicParsing="false" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
-                <Button mnemonicParsing="false" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
+                <Button mnemonicParsing="false" onAction="#updateLieu" style="-fx-background-color: #013069;" text="OK" textFill="WHITE" />
+                <Button mnemonicParsing="false" onAction="#cancelUpdating" style="-fx-background-color: #013069;" text="Annuler" textFill="WHITE" />
             </buttons>
         </ButtonBar>
-      <ComboBox layoutX="34.0" layoutY="150.0" prefHeight="25.0" prefWidth="240.0" />
+      <ComboBox fx:id="provinceCombo" layoutX="34.0" layoutY="150.0" prefHeight="25.0" prefWidth="240.0" />
       <Text layoutX="35.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Province" wrappingWidth="62.1875" />
       <Text layoutX="35.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lieu" wrappingWidth="62.1875" />
     </children>
