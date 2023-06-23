@@ -80,7 +80,7 @@ public class ModifierEmpController {
         addPost.setText(selectedEmploye.getPoste());
         addMail.setText(selectedEmploye.getMail());
         civiliteCombo.getSelectionModel().select(selectedEmploye.getCivilite());
-        provinceComboEmploye.getSelectionModel().select(LieuDAO.getProvince(selectedEmploye.getLieu()));
+        provinceComboEmploye.getSelectionModel().select(LieuDAO.getProvince(selectedEmploye.getId_lieu()));
         lieuCombo.getSelectionModel().select(selectedEmploye.getLieu());;
     }
 

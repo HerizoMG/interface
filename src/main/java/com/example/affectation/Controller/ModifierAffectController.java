@@ -57,8 +57,8 @@ public class ModifierAffectController {
         this.num_emplAffTmpUpdate = selectedAffect.getNum_empl();
         num_emplAff.setText(selectedAffect.getNum_empl());
         ancien_lieu.setText(selectedAffect.getAncien_lieu());
-        new_prov.getSelectionModel().select(LieuDAO.getProvince(selectedAffect.getNouveau_lieu()));
-        new_lieu.getSelectionModel().select(LieuDAO.findLieu(selectedAffect.getNouveau_lieu()));
+        new_prov.getSelectionModel().select(selectedAffect.getNew_prov());
+        new_lieu.getSelectionModel().select(selectedAffect.getNew_design());
         date_affectAff.setValue(selectedAffect.getDate_affect().toLocalDate());
         date_serviceAff.setValue(selectedAffect.getDate_priseservice().toLocalDate());
         this.tmpNumAffect = selectedAffect.getNum_affect();

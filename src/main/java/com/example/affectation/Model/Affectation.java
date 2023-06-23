@@ -16,6 +16,10 @@ public class Affectation {
     private java.sql.Date date_affect;
     private java.sql.Date date_priseservice;
 
+    private String new_prov;
+
+    private String new_design;
+
 
     public String getNum_affect() {
         return num_affect;
@@ -23,6 +27,22 @@ public class Affectation {
 
     public void setNum_affect(String num_affect) {
         this.num_affect = num_affect;
+    }
+
+    public String getNew_prov() {
+        return new_prov;
+    }
+
+    public void setNew_prov(String nouveau) {
+        this.new_prov = nouveau;
+    }
+
+    public String getNew_design() {
+        return new_design;
+    }
+
+    public void setNew_design(String nouveau) {
+        this.new_design = nouveau;
     }
 
     public String getCivilite_empl() {return civilite_empl;}

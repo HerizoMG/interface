@@ -45,6 +45,7 @@ public class EmployeDAO extends Database {
                 tmpEmp.setMail(employeRES.getString("mail"));
                 tmpEmp.setPoste(employeRES.getString("poste"));
                 tmpEmp.setLieu(employeRES.getString("design"));
+                tmpEmp.setId_lieu(employeRES.getString("id_lieu"));
 
                 employes.add(tmpEmp);
             }

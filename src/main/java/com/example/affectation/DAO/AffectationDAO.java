@@ -57,6 +57,8 @@ public class AffectationDAO extends Database {
                     tmpAffect.setNouveau_lieu(affectRES.getString("design") + " " + affectRES.getString("province"));
                     tmpAffect.setDate_affect(affectRES.getDate("date_affect"));
                     tmpAffect.setDate_priseservice(affectRES.getDate("date_priseservice"));
+                    tmpAffect.setNew_prov(affectRES.getString("province"));
+                    tmpAffect.setNew_design(affectRES.getString("design"));
 
                     affects.add(tmpAffect);
                 }
