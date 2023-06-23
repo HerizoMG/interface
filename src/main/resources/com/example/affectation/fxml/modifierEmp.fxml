@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.text.Font?>
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.affectation.Controller"
-            prefHeight="642.0" prefWidth="430.0">
+<AnchorPane prefHeight="642.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.affectation.Controller.ModifierEmpController">
     <children>
         <TextField layoutX="49.0" layoutY="410.0" prefHeight="25.0" prefWidth="330.0" promptText="Poste" />
         <TextField layoutX="49.0" layoutY="341.0" prefHeight="25.0" prefWidth="330.0" promptText="Mail" />
@@ -21,7 +15,7 @@
         <ComboBox layoutX="48.0" layoutY="478.0" prefHeight="26.0" prefWidth="142.0" promptText="Province" />
         <Pane prefHeight="70.0" prefWidth="430.0" style="-fx-background-color: #013069;">
             <children>
-                <Label layoutX="14.0" layoutY="22.0" prefHeight="27.0" prefWidth="151.0" text="Modification d'un employé" textFill="WHITE">
+                <Label layoutX="14.0" layoutY="22.0" prefHeight="27.0" prefWidth="402.0" text="Modification d'un employé" textFill="WHITE">
                     <font>
                         <Font size="18.0" />
                     </font>

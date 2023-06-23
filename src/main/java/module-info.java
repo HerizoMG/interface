@@ -6,4 +6,5 @@ module com.example.affectation {
 
     opens com.example.affectation to javafx.fxml;
     exports com.example.affectation;
+    opens com.example.affectation.Controller to javafx.fxml;
 }

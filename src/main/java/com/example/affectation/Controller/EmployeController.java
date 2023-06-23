@@ -1,4 +1,4 @@
-package com.example.affectation;
+package com.example.affectation.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -9,12 +9,17 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 
-public class Employe {
+public class EmployeController {
 
 
-   /* @FXML
+
+   @FXML
+    private Button ajouterEmpl;
+
+    @FXML
     private Button affecterEmpl;
 
     @FXML
@@ -28,31 +33,30 @@ public class Employe {
 
     @FXML
     void handleButtonClick(ActionEvent event) {
-        if (event.getSource() == creerEmpl){
-
-            showAsDialog("ajoutEmp");
+        if (event.getSource() == affecterEmpl){
+            showAsDialog("ajoutAffect");
         }
         if (event.getSource() == editerEmpl){
             showAsDialog("modifierEmp");
-
+        }
+        if (event.getSource() == ajouterEmpl){
+            showAsDialog("ajoutEmp");
         }
 
     }
 
-    private void showAsDialog(String fxml)
+    public static void showAsDialog(String fxml)
     {
         try {
-            Parent parent =  FXMLLoader.load(getClass().getResource("/com/example/affectation/fxml/"+fxml+".fxml"));
+            Parent parent =  FXMLLoader.load(Objects.requireNonNull(EmployeController.class.getResource("/com/example/affectation/fxml/"+fxml+".fxml")));
             Stage stage = new Stage();
             Scene scene = new Scene(parent);
             stage.setScene(scene);
-            stage.show();
-
+            stage.showAndWait();
 
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-    }*/
-
+    }
 }
